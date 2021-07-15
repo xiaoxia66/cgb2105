@@ -22,5 +22,33 @@
 
 **2、mybatis简易配置：控制语句时长，sql日志的输出等信息**
 
+**四、简单的说一 下springmvc的工作流程**
+
+**1、用户发送请求给中央控制器，DispatcherServlet调用处理器映射器HandlerMapping返回HanderExecutionChain对象，此对象包含了拦截器和一些处理器。**
+
+**2、中央处理器调用处理器适配器HandlerAdapter找到具体的处理器Controller(Handler),之后返回ModelAndView对象传给适配器并返回给中央处理器，视图再交给thymeleaf的视图解析器进行解析，对此逻辑视图名添加路径前缀和文件后缀。**
+
+**3、中央处理器拿到解析后的view经过渲染最终返回给用户**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
 
