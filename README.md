@@ -30,6 +30,21 @@
 
 **3、中央处理器拿到解析后的view经过渲染最终返回给用户**
 
+**五、mybatis中当实体类中的属性名和表中的字段名不一样，怎么办？**
+
+1、写sql语句时起别名
+
+2、在mybatis的全局配置文件中开启驼峰命名规则
+
+3、在映射Mapper映射文件中使用resultMap来自定义映射规则
+
+**六、事务属性**
+
+1、propagation:用来设置事务的传播行为（Propagation.REQUIRED 默认值，使用原来的事务，Propagation.REQUIRES_NEW 将原来的事务挂起，开启一个新的事务 ）
+
+2、isolation:用来设置事务的隔离级别 
+
+
 
 
 
