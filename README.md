@@ -43,6 +43,10 @@
 1、propagation:用来设置事务的传播行为（Propagation.REQUIRED 默认值，使用原来的事务，Propagation.REQUIRES_NEW 将原来的事务挂起，开启一个新的事务 ）
 
 2、isolation:用来设置事务的隔离级别 
+Isolation.REPEATABLE_READ;可重复读，mysql的默认隔离级别。
+Isolation.READ_COMMITTED；读已提交，Oracle的默认隔离级别。
+
+
 
 
 
